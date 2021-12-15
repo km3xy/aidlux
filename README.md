@@ -33,6 +33,11 @@ AidLux App是基于ARM架构的跨生态
 安装redis后 phpinfo  直接能看到redis扩展
 
 
+vivo  应用商店里就能下载
+
+
+
+
 
 
 
