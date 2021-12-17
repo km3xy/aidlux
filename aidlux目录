@@ -8,7 +8,7 @@ php
 mkdir ~/www       位置在aidlux的  root目录下/www
 
 //在aidlux的  root目录下/www
-//把php文件放到www根下就能运行了
+//把php文件放到新建www根下就能运行了
 //在aidlux  root目录下/www
 # 创建 index.php 文件
 
