@@ -1,0 +1,36 @@
+写一个php文件
+
+index2.php
+
+来测试redis  是否连接
+
+<?php
+    //连接本地的 Redis 服务
+   $redis = new Redis();
+   $redis->connect('127.0.0.1', 6379);
+   echo "Connection to server successfully";
+         //查看服务是否运行
+   echo "Server is running: " . $redis->ping();
+?>
+执行脚本，输出结果为：
+
+Connection to server sucessfully
+Server is running: PONG
+
+
+https://m.runoob.com/redis/redis-php.html?ivk_sa=1024320u
+
+
+用aidlux安装php-redis
+
+安装redis  不用配置
+
+启动redis后就能用，
+
+
+不用源码安装    wget   xxxx
+
+自动安装即可  apt  install
+
+
+
