@@ -22,10 +22,15 @@ aid install aid-desktop
 
 apt install php
 
+然后安装php-redis
 
+安装 php-redis    // + redis
 
+安装 redis
 
+直接就能用 不用配置
 
+安装redis后 phpinfo 直接能看到redis扩展
 
 
 
