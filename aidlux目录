@@ -1,0 +1,42 @@
+首先在家(~)目录下建一个www 文件夹，然后在www文件夹下新建一个index.php文件，内容为：
+
+php
+<?php phpinfo();?>
+完整的步骤如下：
+
+# 新建 www 文件夹
+mkdir ~/www       位置在aidlux的  root目录下/www
+
+//在aidlux的  root目录下/www
+//把php文件放到www根下就能运行了
+//在aidlux  root目录下/www
+# 创建 index.php 文件
+
+
+echo '<?php phpinfo();?>' > ~/www/index.php
+编写完成index.php文件后，尝试使用 PHP 内置的 WebServer 直接启动：
+
+# 进入家目录
+cd ~
+
+# 启动 WebServer
+php -S 0.0.0.0:8888 -t www/
+自己制定端口后，浏览器访问http://127.0.0.1:8888
+
+
+自 PHP5.4 之后 PHP 内置了一个 Web 服务器。在 aidlux下可以很方便地测试 PHP 文件
+
+
+//把php文件放到新建的www根下就能运行了
+
+启动php  Webserer
+
+php -S 0.0.0.0:8888 -t www/
+
+在aidlux里  root目录和home目录是同级目录
+
+
+
+
+
+
