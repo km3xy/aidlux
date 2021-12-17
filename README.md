@@ -26,9 +26,9 @@ AidLux App是基于ARM架构的跨生态
 无需配置，直接使用
 
 
-安装  phpredis + redis
+安装  phpredis + redis  
 
-直接就能用
+直接就能用   不用配置 
 
 安装redis后 phpinfo  直接能看到redis扩展
 
