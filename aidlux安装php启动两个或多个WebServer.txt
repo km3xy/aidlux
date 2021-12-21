@@ -1,0 +1,90 @@
+aidlux安装php启动两个或多个WebServer
+
+
+你可以去官网下载：
+
+http://www.aidlearning.net/
+GitHub地址:
+
+https://github.com/aidlearning/AidLearning-FrameWork/releases
+
+vivo  应用商店也可以下载
+
+先安装aidlux   
+
+安装php     
+
+apt install php
+
+首先在家(~)目录下建一个www 文件夹，然后在www文件夹下新建一个index.php文件，内容为：
+
+php
+<?php phpinfo();?>
+完整的步骤如下：
+
+# 新建 www 文件夹
+mkdir ~/www
+
+//把php文件放到www根下就能运行了
+
+# 创建 inedx.php 文件
+
+echo '<?php phpinfo();?>' > ~/www/index.php
+编写完成index.php文件后，尝试使用 PHP 内置的 WebServer 直接启动：
+
+# 进入家目录
+cd ~
+
+# 启动 WebServer
+php -S 0.0.0.0:8888 -t www/
+自己制定端口后，浏览器访问http://127.0.0.1:8888
+
+
+自 PHP5.4 之后 PHP 内置了一个 Web 服务器。在 aidlux下可以很方便地测试 PHP 文件
+
+
+//把php文件放到www根下就能运行了
+
+启动php  Webserer
+
+php -S 0.0.0.0:8888 -t www/
+
+占用8080端口
+
+占用8888端口
+
+占用其他端口
+
+之后再安装kesweb当aidlux的辅助插件用非常好用，u,
+
+如果想用kesweb   请在Apache设置里添加主机端口躲开8080，8888，就可以了，可以修改Apache端口解决
+
+然后就可以同时使用ksweb和aidlux了
+
+
+创建第二个php  Webserer         www2
+
+可以换一个窗口来执行
+
+mkdir ~/www2
+
+
+echo '<?php phpinfo();?>' > ~/www2/index.php
+
+
+cd ~
+
+# 启动 WebServer
+php -S 0.0.0.0:8889 -t www2/
+
+
+http://127.0.0.1:8889
+
+
+访问前先启动  redis服务器
+
+redis-server
+
+
+
+
