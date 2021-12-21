@@ -64,7 +64,7 @@ php -S 0.0.0.0:8888 -t www/
 
 创建第二个php  Webserer         www2
 
-可以换一个窗口来执行
+可以换一个窗口后再来执行
 
 mkdir ~/www2
 
