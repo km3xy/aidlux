@@ -1,0 +1,39 @@
+
+redis和传值自然随机
+
+随机自然随机合并关联
+redis和传值自然随机
+
+2021年12月26
+
+启动
+
+cd~
+
+php -S 0.0.0.0:8888 -t www/
+
+redis-server
+
+http://127.0.0.1:8888/index5.htm
+
+
+http://127.0.0.1:8888/index5/index5.htm
+
+
+
+# 启动 WebServer
+
+cd ~
+php -S 0.0.0.0:8889 -t www2/
+
+http://127.0.0.1:8889
+
+http://127.0.0.1:8889/index5.htm
+
+http://127.0.0.1:8889/index5.htm
+
+访问前先启动  redis服务器
+
+redis-server
+
+
