@@ -7,6 +7,7 @@ apt-get install apache2
 cd /
 /etc/init.d/apache2 start
 apache2修改端口，在document可以快速找到下列文件并修改:
+
 3.1， 修改 /etc/apache2/ports.conf 将
 Listen 80
 改为自己需要的端口，如
@@ -25,6 +26,8 @@ ServerName localhost:9321
 
 3 重启
 service apache2 restart
+
+
 4 打开浏览器验证
 http://localhost:9321/
 提示：也可以将9321改为其他端口
