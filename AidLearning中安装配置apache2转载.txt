@@ -1,0 +1,102 @@
+Aidlux 中 安装配置  apache2通用
+
+打开aidlux,然后按照下面步骤输入
+
+apt-get install apache2
+
+cd /
+/etc/init.d/apache2 start
+apache2修改端口，在document可以快速找到下列文件并修改:
+3.1， 修改 /etc/apache2/ports.conf 将
+Listen 80
+改为自己需要的端口，如
+Listen 9321
+
+3.2，修改/etc/apache2/sites-enabled/000-default.conf 将第一行的
+<VirtualHost *:80>
+改为自己需要的端口
+<VirtualHost *:9321>
+
+
+3.3，在document打开文件 /etc/apache2/apache2.conf
+在最后一行添加：
+ServerName localhost:9321
+
+
+3 重启
+service apache2 restart
+4 打开浏览器验证
+http://localhost:9321/
+提示：也可以将9321改为其他端口
+
+对应本地位置
+/var/www/html/index.html
+
+在本地目录下/var/www/html/
+
+创建新建www文件夹/下面创建一个index5.htm后
+访问地址变成了
+
+http://localhost:9321/www/index5.htm
+
+
+
+
+      有错误    配置nginx   待修改
+/*
+
+有错误    配置nginx   待修改
+
+AidLearning中安装nginx
+打开terminal,然后按照下面步骤输入
+1,apt-get install nginx
+2,修改端口
+/etc/nginx/sites-enabled/default
+找到
+
+listen 80 default_server;
+listen [::]:80  default_server;
+
+
+#在document 里面修改自己需要的端口号
+修改成
+
+listen 9322 default_server;
+listen [::]:9322 default_server;
+
+cd  /etc/init.d/
+3, #etc/init.d/nginx reload
+4,启动nginx
+nginx
+# etc/init.d/nginx start
+5,查看nginx状态
+cd  /etc/init.d/
+#etc/init.d/nginx status
+nginx 
+
+提示：也可以将9322改为其他端口
+
+http://localhost:9322/
+
+对应本地位置
+/var/www/html/index.nginx-debian.html
+
+在本地目录下/var/www/html/
+
+创建www2文件夹
+创建新建www2文件夹/下面创建一个index5.htm后
+
+访问地址变成了
+http://localhost:9322/www2/index5.htm
+*/
+
+有错误    配置nginx   待修改
+
+
+
+https://blog.csdn.net/weixin_42055532/article/details/105639071
+
+
+
+
+
