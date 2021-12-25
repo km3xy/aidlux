@@ -27,6 +27,8 @@ ServerName localhost:9321
 3 重启
 service apache2 restart
 
+或 输入  apache2   直接启动  apache2   
+
 
 4 打开浏览器验证
 http://localhost:9321/
