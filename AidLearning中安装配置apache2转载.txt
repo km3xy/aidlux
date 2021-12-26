@@ -45,6 +45,21 @@ http://localhost:9321/
 http://localhost:9321/www/index5.htm
 
 
+http://localhost:9321/www/
+
+根目录下不要放   .index.php   和.index.htm
+
+这样apache2  就能访问文件夹目录下的文件了
+
+
+配置好 apache2  后
+
+
+就不用改nginx配置了，  改完apache2 
+
+ 再改nginx  同时运行会出问题
+
+
 
 
       有错误    配置nginx   待修改
