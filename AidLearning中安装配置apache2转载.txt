@@ -49,7 +49,11 @@ http://localhost:9321/www/
 
 根目录下不要放   .index.php   和.index.htm
 
+以目录结构浏览
+
 这样apache2  就能访问文件夹目录下的文件了
+
+以目录结构浏览了
 
 
 配置好 apache2  后
