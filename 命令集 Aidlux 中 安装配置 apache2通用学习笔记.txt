@@ -52,7 +52,7 @@ service apache2 restart
 
 4 打开浏览器验证
 http://localhost:8888/
-提示：也可以将9321改为其他端口
+提示：也可以将8888改为其他端口
 
 对应本地位置
 /var/www/html/index.html
