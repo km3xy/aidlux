@@ -1,6 +1,17 @@
 aidlux安装requests rich  方法1
 
 
+如果报错  在 AIDLux 中，python 命令可能是 python3，你可以尝试以下方法：
+
+
+aidlux安装requests rich  方法2
+
+
+bash: python: command not found
+
+
+
+
 在 AIDLux 中，你可以使用 pip 来安装 requests 和 rich，方法如下：
 
 1. 打开 AIDLux 终端
@@ -30,6 +41,13 @@ python -c "import requests, rich; print('安装成功')"
 
 
 
+如果报错  在 AIDLux 中，python 命令可能是 python3，你可以尝试以下方法：
+
+
+aidlux安装requests rich  方法2
+
+
+bash: python: command not found
 
 
 
