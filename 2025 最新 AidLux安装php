@@ -1,0 +1,43 @@
+2025  AidLux安装php
+
+先从官网下载2.0版本的aidlux
+
+
+系统要求  安卓11
+
+
+
+
+# 先更新软件源
+apt update
+
+# 再尝试安装
+apt install php -y --allow-unauthenticated
+
+php -v  # 正确命令有空格
+
+php --version
+
+
+pkg install apache2 php -y
+
+
+方法三：免root安装
+
+
+pkg install apache2 php -y
+
+
+
+pkg install php-curl php-mysql -y
+
+
+
+
+
+
+
+
+
+
+
