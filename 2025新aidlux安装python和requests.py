@@ -88,5 +88,16 @@ export PATH=$PATH:/usr/bin/python3
 
 
 
+方法建议指导    chatgpt  
+
+和deepseek       chatgpt 答案指导更准确
+
+
+
+
+
+
+
+
 
 
