@@ -1,3 +1,4 @@
+aidlux安装requests rich  方法1
 
 
 在 AIDLux 中，你可以使用 pip 来安装 requests 和 rich，方法如下：
@@ -32,6 +33,7 @@ python -c "import requests, rich; print('安装成功')"
 
 
 
+aidlux安装requests rich  方法2
 
 
 
