@@ -120,6 +120,43 @@ aid-pkg install python3
 tokens used: 7588, model: DeepSeek API (deepseek-chat)
 
 
+aidlux安装requests rich
+
+
+gpt
+
+
+
+在 AIDLux 中，你可以使用 pip 来安装 requests 和 rich，方法如下：
+
+1. 打开 AIDLux 终端
+
+进入 AIDLux 的 Terminal（终端）。
+
+2. 升级 pip（可选）
+
+建议先升级 pip，以确保安装最新版的库：
+
+pip install --upgrade pip
+
+3. 安装 requests 和 rich
+
+pip install requests rich
+
+4. 验证安装
+
+安装完成后，可以输入以下命令检查是否安装成功：
+
+python -c "import requests, rich; print('安装成功')"
+
+如果没有报错并输出“安装成功”，说明 requests 和 rich 已经正确安装。
+
+如果遇到 pip 命令不可用，尝试使用 python -m pip install requests rich。
+
+
+
+
+
 
 
 
