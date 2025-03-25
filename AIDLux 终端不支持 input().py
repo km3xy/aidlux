@@ -1,6 +1,21 @@
+File "/usr/local/lib/python3.8/dist-packages/rich/console.py", line 2151, in input
+
+result = input()
+
+EOFError: EOF when reading a line
+
+
+
+
+
+
 这个错误 EOFError: EOF when reading a line 说明 input() 函数在读取输入时遇到了 EOF（文件结束符），可能的原因包括：
 
-1. AIDLux 终端不支持 input()
+1. AIDLux 终端不支持 input()    termux里支持
+
+
+
+
 
 可能是在没有标准输入（stdin）的环境中运行，比如某些终端或者脚本自动执行的环境。
 
