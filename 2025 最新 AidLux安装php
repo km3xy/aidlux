@@ -34,6 +34,21 @@ pkg install php-curl php-mysql -y
 
 
 
+File ".index.php.50000", line 1
+
+<?php phpinfo();?>
+^
+
+SyntaxError: invalid syntax
+
+这个错误提示表明你正在尝试用 Python 解释器运行 PHP 文件，导致语法错误。PHP 和 Python 是两种不同的编程语言，
+
+
+不能混用解释器执行。
+
+
+
+
 
 
 
